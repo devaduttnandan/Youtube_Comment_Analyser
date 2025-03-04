@@ -5,8 +5,8 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-YOUTUBE_API_KEY = "AIzaSyA5E6j0OEExsMAta1hIngVAM7JHd6h3-LQ"
-MISTRAL_API_KEY = "YzCmTYQNzwvRfygWXcbg3sj4W7JjuotC" 
+YOUTUBE_API_KEY = "Enter your Youtube API key here"
+MISTRAL_API_KEY = "Enter your Mistral API key here" 
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"  
 
 def get_youtube_comments(video_id):
